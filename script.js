@@ -1,123 +1,123 @@
 const questions = [
     {
-        stage: "Etapa 1: Grão-Pará (Norte)",
-        question: "Você acaba de desembarcar em Belém em 1823. A notícia da Independência demorou a chegar e o Pará continua fiel a Portugal. Um militar enviado por D. Pedro I usou um blefe — dizendo que uma enorme frota imperial o cercava — para fazer a província aderir ao Brasil. Quem foi ele?",
+        stage: "Etapa 1: O Primeiro Passo",
+        question: "Em 9 de janeiro de 1822, Dom Pedro decidiu permanecer no Brasil contrariando as ordens de Portugal. Como esse dia ficou conhecido?",
         options: [
-            "Almirante Lord Cochrane",
-            "Capitão John Pascoe Grenfell",
-            "Duque de Caxias",
-            "Bento Gonçalves"
+            "Dia do Fico",
+            "Dia da Pátria",
+            "Dia da Bandeira",
+            "Dia da Abolição"
         ],
-        correct: 1,
-        feedback: "Grenfell chegou com apenas um navio, mas fingiu que havia uma esquadra inteira atrás dele. O Pará aderiu em 15 de agosto de 1823."
+        correct: 0,
+        feedback: "No Dia do Fico, D. Pedro declarou a famosa frase: 'Se é para o bem de todos e felicidade geral da Nação, diga ao povo que fico!'"
     },
     {
-        stage: "Etapa 1: Grão-Pará (Norte)",
-        question: "Para navegar pelos rios amazônicos e negociar com os habitantes locais, você precisa conhecer a riqueza da floresta. Como eram chamados os produtos nativos (cacau, guaraná, baunilha e plantas medicinais) extraídos no Grão-Pará?",
+        stage: "Etapa 1: O Primeiro Passo",
+        question: "De qual país o Brasil se tornou independente no ano de 1822?",
         options: [
-            "Especiarias do Pacífico",
-            "Ouro Verde",
-            "Drogas do Sertão",
-            "Riquezas da Corte"
+            "Espanha",
+            "Inglaterra",
+            "Portugal",
+            "França"
         ],
         correct: 2,
-        feedback: "As 'Drogas do Sertão' eram valiosíssimas na Europa e extraídas da Floresta Amazônica com o conhecimento dos povos indígenas."
+        feedback: "O Brasil era colônia de Portugal desde 1500 e rompeu os laços políticos definitivos em 1822."
     },
     {
-        stage: "Etapa 2: Bahia (Nordeste)",
-        question: "Na Bahia, a Independência não foi pacífica: houve uma guerra real contra as tropas portuguesas, que só foram expulsas em 2 de julho de 1823. Qual importante batalha (terrestre e naval) foi decisiva para a vitória dos baianos?",
+        stage: "Etapa 2: O Grito Histórico",
+        question: "Às margens de qual riacho D. Pedro I proclamou a Independência do Brasil em 7 de setembro de 1822?",
         options: [
-            "Batalha de Pirajá",
-            "Batalha do Riachuelo",
-            "Batalha de Guararapes",
-            "Batalha de Curuzu"
+            "Riacho Ipiranga",
+            "Rio São Francisco",
+            "Rio Amazonas",
+            "Rio Paraíba do Sul"
         ],
         correct: 0,
-        feedback: "A Batalha de Pirajá foi um dos marcos mais importantes e decisivos da Guerra da Independência na Bahia."
+        feedback: "O famoso 'Grito do Ipiranga' aconteceu às margens do riacho Ipiranga, na cidade de São Paulo."
     },
     {
-        stage: "Etapa 2: Bahia (Nordeste)",
-        question: "Uma jovem baiana cortou os cabelos, vestiu o uniforme do cunhado e se alistou como 'Soldado Medeiros' para lutar pela libertação do Brasil. Qual era o nome dessa heroína nacional?",
+        stage: "Etapa 2: O Grito Histórico",
+        question: "Quem se tornou o primeiro Imperador do Brasil após a proclamação da Independência?",
         options: [
-            "Anita Garibaldi",
-            "Joana Angélica",
-            "Maria Quitéria",
-            "Maria da Penha"
+            "Dom João VI",
+            "D. Pedro I",
+            "D. Pedro II",
+            "Tiradentes"
+        ],
+        correct: 1,
+        feedback: "D. Pedro I foi coroado como o primeiro Imperador do Brasil em dezembro de 1822."
+    },
+    {
+        stage: "Etapa 3: A Capital e os Símbolos",
+        question: "Qual cidade era a capital do Brasil na época da Independência em 1822?",
+        options: [
+            "São Paulo",
+            "Salvador",
+            "Rio de Janeiro",
+            "Brasília"
         ],
         correct: 2,
-        feedback: "Maria Quitéria de Jesus foi reconhecida por D. Pedro I por sua bravura e tornou-se a primeira mulher a assentar praça no Exército Brasileiro."
+        feedback: "O Rio de Janeiro foi a capital do Brasil de 1763 até a inauguração de Brasília em 1960."
     },
     {
-        stage: "Etapa 3: Piauí e Pernambuco",
-        question: "Em março de 1823, no Piauí, vaqueiros, lavradores e sertanejos armados com foices e machados enfrentaram as tropas portuguesas bem equipadas. Como ficou conhecida essa sangrenta batalha popular?",
+        stage: "Etapa 3: A Capital e os Símbolos",
+        question: "Quais eram as duas cores principais da primeira bandeira do Brasil Imperial?",
         options: [
-            "Batalha dos Guararapes",
-            "Batalha do Jenipapo",
-            "Guerra dos Mascates",
-            "Cabanagem"
+            "Azul e Branco",
+            "Verde e Amarelo",
+            "Vermelho e Preto",
+            "Verde e Vermelho"
         ],
         correct: 1,
-        feedback: "A Batalha do Jenipapo, às margens do rio Jenipapo (Piauí), custou a vida de centenas de brasileiros simples que lutaram pela liberdade."
+        feedback: "O verde representava a Casa de Bragança (D. Pedro I) e o amarelo a Casa de Habsburgo (Imperatriz Leopoldina)."
     },
     {
-        stage: "Etapa 3: Piauí e Pernambuco",
-        question: "Em Pernambuco e no litoral nordestino, a paisagem da Zona da Mata era dominada por grandes engenhos. Qual era o principal produto agrícola cultivado com trabalho escravizado que movia a economia daquela região?",
-        options: [
-            "Café",
-            "Cana-de-açúcar",
-            "Soja",
-            "Borracha"
-        ],
-        correct: 1,
-        feedback: "O açúcar de cana era a base da economia pernambucana e sustentava a estrutura social dos grandes latifúndios."
-    },
-    {
-        stage: "Etapa 4: Rio de Janeiro (A Corte)",
-        question: "Em 9 de janeiro de 1822, no Rio de Janeiro, D. Pedro recusou ordens de Portugal para retornar à Europa. O que ele declarou nessa data, marcada como o 'Dia do Fico'?",
-        options: [
-            "Independência ou Morte!",
-            "Se é para o bem de todos e felicidade geral da Nação, diga ao povo que fico!",
-            "A sorte está lançada!",
-            "Proclamo a união de todas as províncias!"
-        ],
-        correct: 1,
-        feedback: "O 'Dia do Fico' foi o passo crucial que acelerou a separação definitiva entre o Brasil e Portugal meses depois."
-    },
-    {
-        stage: "Etapa 4: Rio de Janeiro (A Corte)",
-        question: "Apesar de o Brasil ter conquistado a independência política em 1822, uma grave contradição social permaneceu no país até 1888. Qual instituição sustentava a economia do Império?",
-        options: [
-            "O trabalho escravizado de pessoas negras e indígenas",
-            "O regime de servidão feudal",
-            "O trabalho assalariado obrigatório",
-            "O imposto de vassalagem"
-        ],
-        correct: 0,
-        feedback: "A independência brought autonomia política para as elites, mas manteve a estrutura escravocrata cruel sobre milhões de pessoas."
-    },
-    {
-        stage: "Etapa 5: Sul e Consolidação",
-        question: "Na região Sul, o Império do Brasil mantinha o controle de uma província de língua espanhola anexada anos antes (atual Uruguai). Como se chamava essa província em 1822?",
-        options: [
-            "Província Cisplatina",
-            "Província de São Pedro",
-            "Província das Missões",
-            "Província de Corrientes"
-        ],
-        correct: 0,
-        feedback: "A Província Cisplatina fez parte do Império do Brasil de 1821 a 1828, quando se tornou o estado independente do Uruguai."
-    },
-    {
-        stage: "Etapa 5: Sul e Consolidação",
-        question: "Vários cientistas europeus viajaram pelo Brasil catalogando a fauna e flora locais. Qual arquiduquesa austríaca e esposa de D. Pedro I foi uma grande incentivadora dessas artes e ciências no país?",
+        stage: "Etapa 4: Mulheres da Independência",
+        question: "Quem era a esposa de D. Pedro I que teve papel decisivo na política e assinou o decreto de Independência antes do Sete de Setembro?",
         options: [
             "Princesa Isabel",
-            "Marquesa de Santos",
-            "Imperatriz Leopoldina",
-            "Rainha Carlota Joaquina"
+            "Maria Leopoldina",
+            "Rainha Carlota Joaquina",
+            "Marquesa de Santos"
+        ],
+        correct: 1,
+        feedback: "A Imperatriz Maria Leopoldina presidiu a reunião do Conselho de Estado e assinou a declaração oficial de independência."
+    },
+    {
+        stage: "Etapa 4: Mulheres da Independência",
+        question: "Qual heroína baiana se disfarçou de homem com o nome de 'Soldado Medeiros' para lutar no exército pela liberdade do Brasil?",
+        options: [
+            "Maria Quitéria",
+            "Anita Garibaldi",
+            "Dona Leopoldina",
+            "Chiquinha Gonzaga"
+        ],
+        correct: 0,
+        feedback: "Maria Quitéria lutou com bravura nas batalhas na Bahia e foi reconhecida como heroína por D. Pedro I."
+    },
+    {
+        stage: "Etapa 5: As Lutas Regionais",
+        question: "Em qual estado brasileiro a Independência é comemorada no dia 2 de julho devido à vitória contra as tropas portuguesas em 1823?",
+        options: [
+            "Pernambuco",
+            "Minas Gerais",
+            "Bahia",
+            "Rio Grande do Sul"
         ],
         correct: 2,
-        feedback: "Maria Leopoldina era altamente culta e desempenhou papel fundamental na política da Independência e no incentivo às ciências no Brasil."
+        feedback: "O '2 de Julho' celebra a Independência da Bahia, quando as últimas tropas portuguesas foram expulsas de Salvador."
+    },
+    {
+        stage: "Etapa 5: As Lutas Regionais",
+        question: "Quem compôs a melodia do famoso Hino da Independência do Brasil ('Já podeis, da Pátria filhos...')?",
+        options: [
+            "O próprio D. Pedro I",
+            "Heitor Villa-Lobos",
+            "Machado de Assis",
+            "Dom João VI"
+        ],
+        correct: 0,
+        feedback: "D. Pedro I era muito talentoso para a música e compôs a melodia do Hino da Independência!"
     }
 ];
 
@@ -216,13 +216,13 @@ function showResults() {
 
     if (score <= 40) {
         resultTitle.textContent = "📜 Aprendiz de Historiador";
-        resultDesc.textContent = "Sua viagem foi desafiadora! Algumas províncias ainda resistem à unificação. Estude mais sobre nossa história e tente novamente!";
+        resultDesc.textContent = "Foi um bom começo! Revise os pontos principais da Independência e tente novamente para melhorar sua pontuação!";
     } else if (score <= 80) {
-        resultTitle.textContent = "⚔️ Guardião do Império";
-        resultDesc.textContent = "Muito bem! Você percorreu o Brasil e compreendeu os conflitos, culturas e riquezas que moldaram a nossa Independência.";
+        resultTitle.textContent = "⚔️ Guardião da Pátria";
+        resultDesc.textContent = "Muito bem! Você conhece os principais fatos e personagens da história do Brasil!";
     } else {
-        resultTitle.textContent = "👑 Herói da Unificação";
-        resultDesc.textContent = "Excelente! Você domina com maestria a história, geografia e cultura do Brasil de 1822. O novo país foi unificado com sucesso por você!";
+        resultTitle.textContent = "👑 Herói da Independência";
+        resultDesc.textContent = "Excelente! Você acertou quase tudo e demonstrou um ótimo conhecimento sobre a história do nosso país!";
     }
 }
 
