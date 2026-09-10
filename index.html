@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotas da Independência: Expedição 1822</title>
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- Arquivo Estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <header>
+            <h1>Expedição 1822</h1>
+            <p class="subtitle">A Jornada da Independência do Brasil</p>
+        </header>
+
+        <!-- TELA INICIAL -->
+        <div id="start-screen" class="screen active">
+            <p style="margin-bottom: 20px; line-height: 1.6; text-align: center;">
+                Você é um mensageiro encarregado de percorrer as províncias do Brasil entre 1822 e 1823. 
+                Para unificar o novo país, passe por 5 etapas, supere 10 missões e teste seus conhecimentos sobre a nossa história, cultura e ambiente!
+            </p>
+            <button class="action-btn" onclick="startGame()">Iniciar Expedição</button>
+        </div>
+
+        <!-- TELA DO JOGO (QUIZ) -->
+        <div id="game-screen" class="screen">
+            <div class="status-bar">
+                <span id="question-number">Pergunta 1 de 10</span>
+                <span id="score-display">Pontos: 0</span>
+            </div>
+            
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <div id="stage-badge" class="stage-badge">Etapa 1: Grão-Pará</div>
+            
+            <div id="question-text" class="question-text">
+                Texto da pergunta aqui...
+            </div>
+
+            <div id="options-grid" class="options-grid">
+                <!-- Botões gerados via JS -->
+            </div>
+
+            <div id="feedback-card" class="feedback-card">
+                <strong>💡 Curiosidade Histórica:</strong> <span id="feedback-text"></span>
+            </div>
+
+            <button id="next-btn" class="action-btn" onclick="nextQuestion()" style="display: none;">Próxima Missão ➔</button>
+        </div>
+
+        <!-- TELA DE RESULTADO -->
+        <div id="result-screen" class="screen">
+            <h2 id="result-title" class="result-title">Título Final</h2>
+            <div id="result-score" class="result-score">0 / 100 pts</div>
+            <p id="result-desc" class="result-desc">Descrição do resultado...</p>
+            <button class="action-btn" onclick="restartGame()">Jogar Novamente 🔄</button>
+        </div>
+    </div>
+
+    <!-- Arquivo Lógica JS -->
+    <script src="script.js"></script>
+</body>
+</html>
